@@ -1,0 +1,34 @@
+{
+  "name": "treegrid-node",
+  "version": "1.0.0",
+  "description": "Backend part of the browser control that displays hierarchy table on Node.js express",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miptleha/treegrid-node.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "control",
+    "grid",
+    "table",
+    "tree"
+  ],
+  "author": "miptleha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miptleha/treegrid-node/issues"
+  },
+  "homepage": "https://github.com/miptleha/treegrid-node",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  }
+}
